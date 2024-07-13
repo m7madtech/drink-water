@@ -23,7 +23,7 @@ h3 {
 .big-glass {
     height: 330px;
     width: 150px;
-    border:5px solid #144fc6;
+    border:3px solid #144fc6;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     background-color: white;
@@ -56,5 +56,11 @@ h3 {
         background-color:azure;
         color: #144fc6;
         text-align: center;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: rgb(106, 179, 248);
+        color: white;
     }
 }
